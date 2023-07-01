@@ -1,0 +1,27 @@
+
+
+
+~UJI COBA DI DEBIAN UBUNTU TERMUX & TURUNANNYA~
+
+
+[ perbarui package ]
+#apt update && upgrade-y
+
+[ unduh git wget ]
+#apt install git wget -y
+
+[ unduh oh-my-zsh ]
+#sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+[ ganti tampilan/tema ]
+#nano ~/.zshrc
+::rekomendasi::
+• jonathan
+• darkblood
+• funky
+• kardan
+• refined
+
+[ aktifkan tema/theme ]
+source ~/.zshrc
+
